@@ -1,0 +1,25 @@
+/* Dan Quinn Design */
+body {
+  background: #eee;
+  color: #666;
+  font-family: "Courier New", Courier, monospace;
+}
+
+@media (min-width: 600px) {
+  body {
+    padding: 100px 25%;
+  }
+}
+
+@media (min-width: 400px, max-width: 599px) {
+  body {
+    padding: auto;
+  }
+}
+
+.main-header,
+.content { margin-bottom: 50px; }
+
+img { width: 100%; }
+
+.hidden { display: none; }
