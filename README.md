@@ -1,0 +1,4 @@
+mono
+====
+
+Minimal Ghost theme.
