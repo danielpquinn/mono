@@ -57,6 +57,7 @@ blockquote {
 .content {
   max-width: 760px;
   margin: 0 auto;
+  padding: 0 20px;
 }
 
 /*
@@ -161,7 +162,7 @@ blockquote {
   margin: 0;
 }
 
-.post figure img {
+.post img {
   margin: 10px 0;
   width: 100%;
   max-width: 720px;
@@ -200,4 +201,20 @@ blockquote {
 
 .about-portrait img {
   border-radius: 80px;
+  max-width: 160px;
+}
+
+/*
+ * Mobile
+ */
+
+@media only screen and (min-width : 320px) and (max-width : 600px) {
+
+  .page-title {
+    font-size: 2em;
+  }
+
+  .page-description {
+    font-size: 1em;
+  }
 }
