@@ -73,15 +73,26 @@ blockquote {
 }
 
 .main-nav a {
+  vertical-align: top;
   box-sizing: border-box;
   display: inline-block;
   height: 24px;
   padding: 3px 8px;
   background-color: white;
   border-radius: 12px;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 24px;
   font-weight: bold;
+}
+
+.main-nav .icons {
+  margin-left: 20px;
+}
+
+.main-nav .icons a {
+  font-size: 18px;
+  background-color: inherit;
+  color: white;
 }
 
 /*
